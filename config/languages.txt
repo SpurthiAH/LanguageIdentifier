@@ -1,0 +1,25 @@
+English,en
+Francais,fr
+Dansk,da
+Deutsch,de
+Portugues,pt
+Latina,la
+Bahasa Indonesian,id
+Afrikaans,af
+Galego,gl
+Catala,ca
+Polski,pl
+Suomi,fi
+Turkce,tr
+Lietuviu,lt
+Euskara,eu
+Magyar,hu
+Hrvatski,hr
+Bahasa Melayu,ms
+Eesti,et
+Hindi,hi
+Bengali,bn
+Malayalam,ml
+Tamil,ta
+Telugu,te
+Urdu,ur
