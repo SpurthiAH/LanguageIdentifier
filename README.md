@@ -36,7 +36,6 @@ Magyar,hu
 Hrvatski,hr
 Bahasa Melayu,ms
 Eesti,et
-
 Hindi,hi
 Bengali,bn3.
 Malayalam,ml
@@ -58,11 +57,11 @@ Each thread makes an API call to a Wikipedia page for a particular language with
 seed can be changed as required. The selection of initial seed affects the kind and amount of data collected.
 It’s recommended to use a proper noun as an initial seed because the way the word is spelt wouldn’t change
 across different languages. After getting a webpage, to generate new seeds, text appearing within italicized
-blocks (those appearing between <i> and </i>) are extracted. Sometimes, these blocks of text as seeds don’t
+blocks (those appearing between \<i> and \</i>) are extracted. Sometimes, these blocks of text as seeds don’t
 return relevant results (they don’t have a corresponding webpage associated with them). So every unique
 word appearing in the webpage is considered as a new seed for further scraping of data. Every time, only
 unique seeds are considered for further data collection. On obtaining data for a webpage, only text
-appearing within paragraphs are extracted (those appearing within <p> and </p>) and stored in the form
+appearing within paragraphs are extracted (those appearing within \<p> and \</p>) and stored in the form
 of .gz files in the corresponding language folder. Currently, we collect 1000 files for every language which
 uses Latin script. This can be changed as needed.
 This process takes a long time as seeds don’t generate relevant results often. After trying to generate
