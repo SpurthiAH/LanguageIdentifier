@@ -154,7 +154,7 @@ All the source code, data and configuration files have been zipped and attached 
 entire project has been uploaded on GitHub.
 The whole process can be run end-to-end after deleting folders from Data folder expect for those belonging to Non-
 Latin scripts - bn, hi, ml, ta, te and ur. Please do not delete these folders as we don’t collect data for these languages.
-Link: https://github.com/SpurthiAH/LanguageIdentifier
+
 Testing
 For testing the system, please run the application (on command line) as follows:
 Go to code folder under LanguageIdentifier. This is required as we use the directory path for finding configuration
